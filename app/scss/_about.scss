@@ -1,0 +1,41 @@
+.about{
+    position: relative;
+   &_block{
+    margin-bottom: 100px;
+   }
+    &_title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 125%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &_inner{
+        position: relative;
+    }
+    &_text{
+        padding: 50px 30px 50px 50px;
+        background-color: #FFFFFF;
+        max-width: 815px;
+        position: absolute;
+        top: 102px;
+        border-right: 15px solid #44C697;
+        border-radius: 0px 3px 3px 0px;;
+        p{  
+            margin-bottom: 15px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 125%;
+            span{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 125%;
+                text-transform: uppercase;
+                color: #44C697;
+            }
+        }
+    }
+    &_img{
+        float: right;
+    }
+}

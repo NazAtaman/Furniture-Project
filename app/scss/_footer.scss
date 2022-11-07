@@ -1,0 +1,158 @@
+.footer{
+    display: flex;
+    &_block{
+        background: #1E2E36;
+        max-width: 830px;
+        width: 100%;
+        padding: 49px 0 0 52px;
+    }
+    &_logo{
+        cursor: pointer;
+        display: flex;
+        z-index: 3;
+        margin-bottom: 52px;
+    }
+    &_descr{
+        display: flex;
+        color: white;
+        padding-bottom: 86px;
+    }
+   
+    &_furniture_item{
+        cursor: pointer;
+        padding-bottom: 15px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+        span{
+            color: #44C697;
+        }
+    }
+    &_furniture_list{
+        margin: 0px 15px 0px 7px;
+    }
+    &_akcii_list{
+        margin-left: 50px;
+    }
+    &_akcii_item{
+        cursor: pointer;
+        padding-bottom: 15px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+        span{
+            color: #44C697;
+        }
+    }
+    &_contacts{
+        margin-left: 105px;
+    }
+    &_contacts_test{
+        padding-left: 25px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 16px;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 24px;
+            background-image: url(../images/footer/Vect.svg);
+        }
+    }
+    &_contacts_shedule{
+        padding-bottom: 25px;
+        padding-left: 25px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 125%;
+        padding-bottom: 17px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 24px;
+            background-image: url(../images/footer/shedule.svg);
+        }
+    }
+    &_numbers{
+        position: relative;
+        padding-bottom: 26px;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 24px;
+            background-image: url(../images/footer/smartphone.svg);
+        }
+    }
+ 
+    &_contacts_tel{
+        padding-left: 25px;
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+        color: #44C697;
+        padding-bottom: 5px;
+      
+    }
+    &_social_text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 125%;
+        padding-bottom: 17px;
+    }
+    &_social_item{
+     display: flex;
+    }
+    &_social_link{
+        padding-right: 30px;
+    }
+    &_social_list{
+        margin-left: 7px;
+    }
+    &_glanec{
+        display: flex;
+    }
+    &_glanec_text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: white;
+        padding-right: 220px;
+    }
+    &_glanec_shop{
+        font-family: 'Cuprum';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            left: -21px;
+            top: -1px;
+            width: 20px;
+            height: 20px;
+            background-image: url(../images/footer/logo_glanec.svg);
+        }
+    }
+   
+}

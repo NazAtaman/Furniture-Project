@@ -1,0 +1,118 @@
+.categories{
+    text-align: center;
+    &_title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 125%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &_buttons{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        button{
+            cursor: pointer;
+        }
+    }
+    &_btn_furniture{
+        margin-bottom: 90px;
+        img{
+            margin-bottom: 17px;
+        }
+        span{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 125%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    &_items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &_item{
+        position: relative; 
+        padding-bottom: 55px;
+        transition: transform .3s ease-in-out;
+        &:hover{
+            transform: translateY(-27px);
+            .categories_item_descr{
+                background: #44C697;
+            }
+        }
+    }
+    &_item_advert{
+        position: absolute !important;
+        top: 10px;
+        left: 0;
+        padding: 5px 15px;
+        background: #1E2E36;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+    }
+    &_item_auctia{
+        position: absolute !important;
+        top: 55px;
+        left: 0;
+        background: #FF1B1B;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+    &_item_descr{
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+        p{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 125%;
+        text-transform: uppercase;
+        }
+    }
+    &_item_price{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        s{
+            padding-left: 30px;
+        }
+    }
+    &_button{
+        cursor: pointer;
+        margin-bottom: 100px;
+        padding: 14px 45px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 125%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #44C697;
+        border-radius: 3px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .mixitup-control-active{
+        span{
+            border-bottom: 4px solid green;
+        }
+    }
+}
